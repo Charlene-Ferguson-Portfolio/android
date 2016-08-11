@@ -20,8 +20,8 @@
     </style>
 
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColour">@android:colour/white</item>
-        <item name="tabSelectedTextColour">@android:colour/white</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance </item>
     </style>
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
