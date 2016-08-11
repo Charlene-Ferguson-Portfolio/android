@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">TouristApp</string>
-    <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
+    <!-- Category name for museums [CHAR LIMIT=20] -->
     <string name="category_museums">Museums</string>
 
-    <!-- Category name for the vocabulary words for theatre [CHAR LIMIT=20] -->
+    <!-- Category name for theatres [CHAR LIMIT=20] -->
     <string name="category_theatres">Theatres</string>
+
+    <!-- Category name for theatres [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for theatres [CHAR LIMIT=20] -->
+    <string name="category_attractions">Attractions</string>
+
 </resources>
