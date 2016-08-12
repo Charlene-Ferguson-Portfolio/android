@@ -10,7 +10,9 @@ public class PointOfInterest {
     private int mPhone;
     private String mOpen;
     private String mClose;
-    private int mImageResourceId;
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     public PointOfInterest(String name) {
         mName = name;
@@ -19,6 +21,32 @@ public class PointOfInterest {
     public String getName() {
         return mName;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public String getLatitude() {
         return mLatitude;
@@ -42,6 +70,13 @@ public class PointOfInterest {
 
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    /*
+  * Returns whether or not there is an image for this word.
+  * */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }
 
