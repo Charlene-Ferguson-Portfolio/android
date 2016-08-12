@@ -18,6 +18,11 @@ public class PointOfInterest {
         mName = name;
     }
 
+    public PointOfInterest(String name, int imageResourceId) {
+        mName = name;
+        mImageResourceId = imageResourceId;
+    }
+
     public String getName() {
         return mName;
     }
