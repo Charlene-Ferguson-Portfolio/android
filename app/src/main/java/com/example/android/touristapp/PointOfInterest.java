@@ -27,32 +27,6 @@ public class PointOfInterest {
         return mName;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public String getLatitude() {
         return mLatitude;
     }
@@ -78,8 +52,8 @@ public class PointOfInterest {
     }
 
     /*
-  * Returns whether or not there is an image for this word.
-  * */
+    * Returns whether or not there is an image for this word.
+    * */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
