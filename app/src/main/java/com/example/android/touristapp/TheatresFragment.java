@@ -22,7 +22,6 @@ public class TheatresFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.interest_list, container, false);
 
         final ArrayList<PointOfInterest> interests = new ArrayList<>();
@@ -40,7 +39,7 @@ public class TheatresFragment extends Fragment {
 
         // Create an adapter whose data source is a list of musuems. The
         // adapter knows how to create list items for each item in the list.
-        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests, R.color.category_museums);
+        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests);//, R.color.category_theatres);
 
         //Create a list view
         ListView listView = (ListView) rootView.findViewById(R.id.list);

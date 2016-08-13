@@ -1,7 +1,6 @@
 package com.example.android.touristapp;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,11 +15,11 @@ import java.util.ArrayList;
  */
 public class PointOfInterestAdapter extends ArrayAdapter<PointOfInterest> {
 
-    private int mColourResourceId ;
+    //private int mColourResourceId ;
 
-    public PointOfInterestAdapter(Context context, ArrayList<PointOfInterest> pPointOfInterest, int colourResourceId) {
+    public PointOfInterestAdapter(Context context, ArrayList<PointOfInterest> pPointOfInterest) {//, int colourResourceId)
         super(context, 0, pPointOfInterest);
-        mColourResourceId = colourResourceId;
+       // mColourResourceId = colourResourceId;
     }
 
     @Override
@@ -61,9 +60,9 @@ public class PointOfInterestAdapter extends ArrayAdapter<PointOfInterest> {
         // Set the theme for the list colour
         View text_container = listItemView.findViewById(R.id.list);
         //Find colour that the resource ID maps to
-        int colour = ContextCompat.getColor(getContext(), mColourResourceId);
+       // int colour = ContextCompat.getColor(getContext(), mColourResourceId);
         // Set the background colour of the text container view
-        text_container.setBackgroundColor(colour);
+        //text_container.setBackgroundColor(colour);
         // Return the whole list item layout (containing a TextView and ImageView)
         // so that it can be shown in the ListView
         return listItemView;

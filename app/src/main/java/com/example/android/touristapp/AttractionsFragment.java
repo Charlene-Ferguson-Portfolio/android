@@ -40,7 +40,7 @@ public class AttractionsFragment extends Fragment {
 
         // Create an adapter whose data source is a list of musuems. The
         // adapter knows how to create list items for each item in the list.
-        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests, R.color.category_museums);
+        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests);// R.color.category_attractions);
 
         //Create a list view
         ListView listView = (ListView) rootView.findViewById(R.id.list);

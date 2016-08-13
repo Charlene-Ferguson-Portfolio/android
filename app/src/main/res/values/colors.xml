@@ -12,17 +12,14 @@
     <color name="app_background">#0D47A1</color>
 
     <!-- Background color for the museums category -->
-    <color name="category_museums">#90CAF9</color>
+    <color name="category_museums">#2196F3</color>
 
     <!-- Background color for the theatres category -->
-    <color name="category_theatres">#1E88E5</color>
-
-    <!-- Background color for the theme parks category -->
-    <color name="category_themeparks">#90CAF9</color>
+    <color name="category_theatres">#1976D2</color>
 
     <!-- Background color for the attractions category -->
     <color name="category_attractions">#1E88E5</color>
 
     <!-- Background color for the parks and gardens category -->
-    <color name="category_parks">#90CAF9</color>
+    <color name="category_parks">#2196F3</color>
 </resources>

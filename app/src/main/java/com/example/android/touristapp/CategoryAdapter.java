@@ -50,4 +50,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 4;
     }
+
+
 }
