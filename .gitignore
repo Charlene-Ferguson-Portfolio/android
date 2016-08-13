@@ -21,3 +21,4 @@ gradlew
 build/
 .idea/
 gradlew.bat
+app/src/main/AndroidManifest.xml
