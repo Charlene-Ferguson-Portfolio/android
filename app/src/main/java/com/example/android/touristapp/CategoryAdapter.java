@@ -27,7 +27,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return mContext.getString(R.string.category_theatres);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_attractions);
+            return mContext.getString(R.string.category_sights);
         } else {
             return mContext.getString(R.string.category_parks);
         }
@@ -40,7 +40,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 1) {
             return new TheatresFragment();
         } else if (position == 2) {
-            return new AttractionsFragment();
+            return new SightsFragment();
         } else {
             return new ParksFragment();
         }

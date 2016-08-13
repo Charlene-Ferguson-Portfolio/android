@@ -10,6 +10,6 @@
     <string name="category_parks">Parks</string>
 
     <!-- Category name for theatres [CHAR LIMIT=20] -->
-    <string name="category_attractions">Attractions</string>
+    <string name="category_sights">Sights</string>
 
 </resources>

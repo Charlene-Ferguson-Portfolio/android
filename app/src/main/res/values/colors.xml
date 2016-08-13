@@ -22,4 +22,8 @@
 
     <!-- Background color for the parks and gardens category -->
     <color name="category_parks">#2196F3</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
 </resources>

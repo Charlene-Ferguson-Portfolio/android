@@ -37,7 +37,7 @@ public class TheatresFragment extends Fragment {
         interests.add(new PointOfInterest("Churchill War Rooms",  R.mipmap.ic_launcher));
         interests.add(new PointOfInterest("Charles Dickens", R.mipmap.ic_launcher));
 
-        // Create an adapter whose data source is a list of musuems. The
+        // Create an adapter whose data source is a list of theatres. The
         // adapter knows how to create list items for each item in the list.
         PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests);//, R.color.category_theatres);
 

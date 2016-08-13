@@ -10,10 +10,10 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 
-public class AttractionsFragment extends Fragment {
+public class SightsFragment extends Fragment {
 
 
-    public AttractionsFragment() {
+    public SightsFragment() {
         // Required empty public constructor
     }
 
@@ -38,9 +38,9 @@ public class AttractionsFragment extends Fragment {
         interests.add(new PointOfInterest("Churchill War Rooms",  R.mipmap.ic_launcher));
         interests.add(new PointOfInterest("Charles Dickens", R.mipmap.ic_launcher));
 
-        // Create an adapter whose data source is a list of musuems. The
+        // Create an adapter whose data source is a list of sights. The
         // adapter knows how to create list items for each item in the list.
-        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests);// R.color.category_attractions);
+        PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), interests);//, R.color.category_attractions);
 
         //Create a list view
         ListView listView = (ListView) rootView.findViewById(R.id.list);
